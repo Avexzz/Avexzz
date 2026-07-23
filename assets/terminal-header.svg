@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 220" role="img" aria-labelledby="title desc">
+  <title id="title">Avexzz terminal profile</title>
+  <desc id="desc">An animated terminal introducing Avexzz and rotating through current interests.</desc>
+
+  <style>
+    .window { fill: #0d1117; stroke: #30363d; stroke-width: 2; }
+    .bar { fill: #161b22; }
+    .label, .command, .line, .status {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+    }
+    .label { fill: #8b949e; font-size: 14px; letter-spacing: 1.2px; }
+    .command { fill: #f0f6fc; font-size: 24px; font-weight: 600; }
+    .prompt { fill: #58a6ff; }
+    .line { fill: #c9d1d9; font-size: 18px; opacity: 0; animation: cycle 9s linear infinite; }
+    .line-2 { animation-delay: 3s; }
+    .line-3 { animation-delay: 6s; }
+    .status { fill: #7d8590; font-size: 13px; }
+    .cursor { fill: #58a6ff; animation: blink 1s steps(1, end) infinite; }
+
+    @keyframes blink {
+      0%, 48% { opacity: 1; }
+      49%, 100% { opacity: 0; }
+    }
+
+    @keyframes cycle {
+      0%, 28% { opacity: 1; }
+      33%, 100% { opacity: 0; }
+    }
+  </style>
+
+  <rect class="window" x="1" y="1" width="978" height="218" rx="12" />
+  <path class="bar" d="M13 2h954a11 11 0 0 1 11 11v33H2V13A11 11 0 0 1 13 2Z" />
+
+  <circle cx="24" cy="24" r="6" fill="#ff5f56" />
+  <circle cx="45" cy="24" r="6" fill="#ffbd2e" />
+  <circle cx="66" cy="24" r="6" fill="#27c93f" />
+  <text class="label" x="490" y="29" text-anchor="middle">AVEXZZ / PROFILE</text>
+
+  <text class="command" x="42" y="94">
+    <tspan class="prompt">avexzz@github:~$</tspan>
+    <tspan> ./build</tspan>
+  </text>
+  <rect class="cursor" x="274" y="72" width="12" height="26" rx="1" />
+
+  <text class="line line-1" x="42" y="145">shipping desktop apps and useful little tools</text>
+  <text class="line line-2" x="42" y="145">turning rough ideas into polished interfaces</text>
+  <text class="line line-3" x="42" y="145">currently building: molaris.exe</text>
+
+  <text class="status" x="42" y="194">simple · visual · fast</text>
+  <text class="status" x="938" y="194" text-anchor="end">status: building</text>
+</svg>
