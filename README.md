@@ -28,5 +28,5 @@
 ---
 
 <p align="center">
-  <sub>build something useful. make it look good. keep it fast.</sub>
+  <sub>Take a look in the projects.</sub>
 </p>
