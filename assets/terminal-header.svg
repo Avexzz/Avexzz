@@ -40,7 +40,7 @@
     <tspan class="prompt">avexzz@github:~$</tspan>
     <tspan> ./build</tspan>
   </text>
-  <rect class="cursor" x="274" y="72" width="12" height="26" rx="1" />
+  <rect class="cursor" x="392" y="72" width="12" height="26" rx="1" />
 
   <text class="line line-1" x="42" y="145">shipping desktop apps and useful little tools</text>
   <text class="line line-2" x="42" y="145">turning rough ideas into polished interfaces</text>
