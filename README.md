@@ -6,6 +6,10 @@
   software, visual experiments &amp; things that probably started as a bad idea
 </p>
 
+<p align="center">
+  <img src="./assets/edward-transmutation.gif" width="560" alt="Pixel-art transmutation animation" />
+</p>
+
 ---
 
 ### `01 — about`
@@ -28,5 +32,5 @@
 ---
 
 <p align="center">
-  <sub>Take a look in the projects.</sub>
+  <sub>build something useful. make it look good. keep it fast.</sub>
 </p>
